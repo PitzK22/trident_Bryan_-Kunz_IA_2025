@@ -1,0 +1,21 @@
+training:
+  features_name : "n_pulses" # 'n_pulses' or 'features'
+
+  epoch_count: 100
+  learning_rate: 0.7e-5
+  weight_decay: 1.0e-3
+  validation_split: 0.2
+  batch_size: 950
+
+  early_stop: true
+  early_stopping_patience: 10
+  early_stopping_min_delta: 1.0e-4
+  
+  model:
+    hidden_dim : 48
+    depth : 10
+    dropout : 0.001
+
+evaluation:
+  batch_size: 600
+  evaluation_split: 0.2

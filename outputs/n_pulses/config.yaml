@@ -1,0 +1,21 @@
+training:
+  features_name : "feautres" # 'n_pulses' or 'features'
+
+  epoch_count: 100
+  learning_rate: 1.0e-4
+  weight_decay: 1.0e-3
+  validation_split: 0.2
+  batch_size: 1000
+
+  early_stop: true
+  early_stopping_patience: 10
+  early_stopping_min_delta: 1.0e-4
+  
+  model:
+    hidden_dim : 48
+    depth : 5
+    dropout : 0.0
+
+evaluation:
+  batch_size: 1000
+  evaluation_split: 0.2
