@@ -1,6 +1,6 @@
 # TRIDENT: Tropical Deepsea Neutrino Telescope Machine Learning Project
 
-This repository provides a flexible and scalable template for regression on physics data use for Trident project, using PyTorch with DeepSet and MLP architectures. The structure and workflow are designed to respect and do a bit more than the standards expected in the Physics Applications of AI (2025) course given by the professor GOLLING Tobias. This project is a student project, chosen from three others, which is use to give a final grade.
+This project is a student project, chosen from three others, which is use to give a final grade. Using PyTorch with DeepSet and MLP architectures. The structure and workflow are designed to respect and do a bit more than the standards expected in the Physics Applications of AI (2025) course given by the professor GOLLING Tobias.
 ---
 
 ## Overview
