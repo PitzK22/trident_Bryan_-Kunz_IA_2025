@@ -6,6 +6,7 @@ This project is a student project, chosen from three others, which is use to giv
 ## Overview
 
 This project includes:
+- A report of the project, name `Trident_report.pdf`
 - A Python module: `MLP_Data_Network` folder and `pyproject.toml` for install details
 - A `data` folder, which contains your features and truth data in Parquet format
 - A `config_default.yaml` file, which holds default hyperparameters and configuration
